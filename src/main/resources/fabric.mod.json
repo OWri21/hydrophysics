@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hydrophysics",
+  "version": "${version}",
+
+  "name": "HydroPhysics",
+  "description": "Realistic water physics and explosion mechanics for Minecraft.",
+  "authors": [],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/hydrophysics/icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "com.hydrophysics.HydroPhysics"
+    ]
+  },
+
+  "mixins": [
+    "hydrophysics.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+
+  "suggests": {}
+}

@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Fabric Loom cache
+.loom-cache/
+run/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wrapper jar (fetched automatically by gradlew)
+gradle/wrapper/gradle-wrapper.jar
